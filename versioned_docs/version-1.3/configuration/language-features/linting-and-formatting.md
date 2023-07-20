@@ -4,6 +4,11 @@ sidebar_position: 2
 
 # Linting and formatting
 
+There are some linter options already installed.  To view them, use `<leader> l`.  For example, try
+`<leader> l f` to format the currently opened file, e.g. add tabs to a poorly formatted html file.
+See [key-bindings](https://github.com/LunarVim/lunarvim.org/tree/master/versioned_docs/version-1.3/configuration/keybindings.md)
+for more info.
+
 Setting a formatter will override the language server formatting capabilities.
 
 The easiest way is to reference the linter/formatter/code_actions by their names. See the [null-ls
